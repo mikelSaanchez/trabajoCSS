@@ -1,45 +1,89 @@
 header {
   border: solid 1px black;
-  height: 100px;
+  height: 80px;
 }
 
 .Logo {
-  height: 100px;
+  height: 80px;
   width: 40%;
   text-align: center;
   float: left;
   background-color: antiquewhite;
 }
+
 .Cabezera {
-  height: 100px;
+  height: 80px;
   width: 60%;
   text-align: center;
   float: right;
   background-color: aliceblue;
 }
-#Inicio{
-height: 100px;
-float: right;
-background-color: aqua;
-width: 25%;
+
+#Inicio,
+#InformacionCharangas,
+#Noticias,
+#Presupuestos {
+  height: 80px;
+  float: right;
+  background-color: aqua;
+  width: 25%;
 }
-#InformacionCharangas{
-height: 100px;
-float: right;
-background-color: aqua;
-width: 25%;
-}
-#Noticias{
-height: 100px;
-float: right;
-background-color: aqua;
-width: 25%;
+
+#publicidadIzq {
+  border: 2px solid;
+  background-color: gainsboro;
+  position: fixed;
+  left: 0px;
+  width: 20%;
+  height: 600px;
 
 }
-#Presupuestos{
-height: 100px;
-float: right;
-background-color: aqua;
-width: 25%;
 
+#publicidadDech {
+  border: 2px solid;
+  background-color: gainsboro;
+  position: fixed;
+  right: 0px;
+  width: 20%;
+  height: 600px;
+
+}
+
+#informacionPrincipal,
+#serviciosCharanga {
+  width: 60%;
+  margin: auto;
+  background-color: antiquewhite;
+}
+
+#fotoPrincipal {
+  text-align: center;
+  margin: auto;
+
+}
+
+#textoPrincipal {
+  text-align: center;
+}
+
+#whatsapp,
+#youtube,
+#difusion {
+  width: 33%;
+  float: left;
+  border: 1px black solid;
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+
+  border: 2px solid;
+  background-color: gainsboro;
+  position: fixed;
+  bottom: 0px;
+  width: 80%;
+  height: 40px;
+  margin: 0px;
+  left: 10%;
 }
