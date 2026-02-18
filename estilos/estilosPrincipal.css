@@ -3,14 +3,14 @@ header {
   height: 80px;
 }
 body {
-  background-color: rgb(137, 106, 177);
+   background-color: rgb(124, 181, 238);
 }
 .Logo {
   height: 80px;
   width: 40%;
   text-align: center;
   float: left;
-  background-color: rgb(137, 106, 177);
+  background-color: rgb(124, 181, 238);
 }
 
 .Cabezera {
@@ -18,7 +18,7 @@ body {
   width: 60%;
   text-align: center;
   float: right;
-  background-color: rgb(137, 106, 177);
+   background-color: rgb(124, 181, 238);
 }
 
 a.Cabezera {
@@ -33,7 +33,7 @@ a:hover {
 #Presupuestos {
   height: 80px;
   float: right;
-  background-color: rgb(137, 106, 177);
+  background-color: rgb(124, 181, 238);
   width: 25%;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 #serviciosCharanga {
   width: 60%;
   margin: auto;
-  background-color: rgb(137, 106, 177);
+   background-color: rgb(124, 181, 238);
 }
 
 #fotoPrincipal {
@@ -91,7 +91,6 @@ h2,h3{
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 20px 40px;
   background-color: beige;
   border: 1px black solid;
 }
