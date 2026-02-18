@@ -19,6 +19,12 @@ header {
   background-color: aliceblue;
 }
 
+a{
+color: blue;
+}
+a:hover{
+  color: rgb(65, 225, 65);
+}
 #Inicio,
 #InformacionCharangas,
 #Noticias,
@@ -76,14 +82,36 @@ header {
   text-align: center;
 }
 
-footer {
+.footer-principal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+    padding: 20px 40px;
+    z-index: 1000;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+    border-top: 3px solid var(--color-acento);
+}
+.info-contacto {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
-  border: 2px solid;
-  background-color: gainsboro;
-  position: fixed;
-  bottom: 0px;
-  width: 80%;
-  height: 40px;
-  margin: 0px;
-  left: 10%;
+.info-contacto p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: var(--color-texto-secundario);
+}
+
+.info-contacto strong {
+    color: var(--color-dorado);
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--color-texto-secundario);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
 }

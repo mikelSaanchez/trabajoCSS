@@ -1,0 +1,36 @@
+header {
+  border: solid 1px black;
+  height: 80px;
+}
+
+.Logo {
+  height: 80px;
+  width: 40%;
+  text-align: center;
+  float: left;
+  background-color: antiquewhite;
+}
+
+.Cabezera {
+  height: 80px;
+  width: 60%;
+  text-align: center;
+  float: right;
+  background-color: aliceblue;
+}
+
+a{
+color: blue;
+}
+a:hover{
+  color: rgb(65, 225, 65);
+}
+#Inicio,
+#InformacionCharangas,
+#Noticias,
+#Presupuestos {
+  height: 80px;
+  float: right;
+  background-color: aqua;
+  width: 25%;
+}
