@@ -2,13 +2,15 @@ header {
   border: solid 1px black;
   height: 80px;
 }
-
+body {
+  background-color: rgb(137, 106, 177);
+}
 .Logo {
   height: 80px;
   width: 40%;
   text-align: center;
   float: left;
-  background-color: antiquewhite;
+  background-color: rgb(137, 106, 177);
 }
 
 .Cabezera {
@@ -16,13 +18,13 @@ header {
   width: 60%;
   text-align: center;
   float: right;
-  background-color: aliceblue;
+  background-color: rgb(137, 106, 177);
 }
 
-a{
-color: blue;
+a.Cabezera {
+  color: blue;
 }
-a:hover{
+a:hover {
   color: rgb(65, 225, 65);
 }
 #Inicio,
@@ -31,11 +33,77 @@ a:hover{
 #Presupuestos {
   height: 80px;
   float: right;
-  background-color: aqua;
+  background-color: rgb(137, 106, 177);
   width: 25%;
 }
-form{
-    text-align: center;
-    background-color: antiquewhite;
 
+#publicidadIzq {
+  border: 2px solid;
+  background-color: gainsboro;
+  position: fixed;
+  left: 0px;
+  width: 20%;
+  height: 775px;
 }
+
+#publicidadDech {
+  border: 2px solid;
+  background-color: gainsboro;
+  position: fixed;
+  right: 0px;
+  width: 20%;
+  height: 775px;
+}
+form {
+  text-align: center;
+  background-color: antiquewhite;
+}
+#principal {
+  width: 60%;
+  margin: auto;
+}
+
+fieldset {
+  width: 50%;
+  margin: auto;
+  border: blue solid 1px;
+}
+
+
+.footer-principal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: beige;
+  border: 1px black solid;
+}
+.info-contacto {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.campo-formulario label {
+    color: var(--color-texto);
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.obligatorio {
+    color: rgb(185, 73, 73);
+}
+
+.opcional {
+    color: var(--color-texto-secundario);
+    font-style: italic;
+}
+

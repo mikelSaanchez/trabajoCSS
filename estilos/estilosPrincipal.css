@@ -2,13 +2,15 @@ header {
   border: solid 1px black;
   height: 80px;
 }
-
+body {
+  background-color: rgb(137, 106, 177);
+}
 .Logo {
   height: 80px;
   width: 40%;
   text-align: center;
   float: left;
-  background-color: antiquewhite;
+  background-color: rgb(137, 106, 177);
 }
 
 .Cabezera {
@@ -16,13 +18,13 @@ header {
   width: 60%;
   text-align: center;
   float: right;
-  background-color: aliceblue;
+  background-color: rgb(137, 106, 177);
 }
 
-a{
-color: blue;
+a.Cabezera {
+  color: blue;
 }
-a:hover{
+a:hover {
   color: rgb(65, 225, 65);
 }
 #Inicio,
@@ -31,7 +33,7 @@ a:hover{
 #Presupuestos {
   height: 80px;
   float: right;
-  background-color: aqua;
+  background-color: rgb(137, 106, 177);
   width: 25%;
 }
 
@@ -41,8 +43,7 @@ a:hover{
   position: fixed;
   left: 0px;
   width: 20%;
-  height: 600px;
-
+  height: 775px;
 }
 
 #publicidadDech {
@@ -51,27 +52,28 @@ a:hover{
   position: fixed;
   right: 0px;
   width: 20%;
-  height: 600px;
-
+  height: 775px;
 }
 
 #informacionPrincipal,
 #serviciosCharanga {
   width: 60%;
   margin: auto;
-  background-color: antiquewhite;
+  background-color: rgb(137, 106, 177);
 }
 
 #fotoPrincipal {
   text-align: center;
   margin: auto;
-
 }
 
 #textoPrincipal {
   text-align: center;
 }
 
+h2,h3{
+  text-align: center;
+}
 #whatsapp,
 #youtube,
 #difusion {
@@ -80,38 +82,22 @@ a:hover{
   border: 1px black solid;
   height: 200px;
   text-align: center;
+  background-color: white;
+   margin-bottom: 200px;
 }
 
 .footer-principal {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: linear-gradient(90deg, var(--color-primario) 0%, var(--color-secundario) 100%);
-    padding: 20px 40px;
-    z-index: 1000;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
-    border-top: 3px solid var(--color-acento);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: beige;
+  border: 1px black solid;
 }
 .info-contacto {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.info-contacto p {
-    margin: 5px 0;
-    font-size: 0.9em;
-    color: var(--color-texto-secundario);
-}
 
-.info-contacto strong {
-    color: var(--color-dorado);
-}
-
-.copyright {
-    text-align: center;
-    font-size: 0.8em;
-    color: var(--color-texto-secundario);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 10px;
-}
