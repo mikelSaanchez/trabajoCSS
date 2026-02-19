@@ -10,7 +10,7 @@ body {
   width: 40%;
   text-align: center;
   float: left;
-background-color: rgb(124, 181, 238);
+  background-color: rgb(124, 181, 238);
 }
 
 .Cabezera {
@@ -33,7 +33,7 @@ a:hover {
 #Presupuestos {
   height: 80px;
   float: right;
- background-color: rgb(124, 181, 238);
+  background-color: rgb(124, 181, 238);
   width: 25%;
 }
 
@@ -62,7 +62,40 @@ a:hover {
   right: 0px;
   width: 20%;
   height: 600px;
-
+}
+p,h2 {
+  margin: auto;
+  text-align: center;
+}
+.ubi {
+  text-align: center;
+  color: rgb(187, 43, 43);
+}
+#principal {
+  width: 60%;
+  margin: auto;
+  background-color: bisque;
+  height: 1000px;
+}
+#principal-linea1,
+#principal-linea2,
+#principal-linea2  {
+  height: 280px;
+}
+#charanga1,
+#charanga2,
+#charanga3,
+#charanga4,
+#charanga5,
+#charanga6,
+#charanga7,
+#charanga8,
+#charanga9 {
+  float: left;
+  text-align: center;
+  width: 33.15%;
+  border: 2px solid blue;
+  height: 280px;
 }
 
 .footer-principal {
