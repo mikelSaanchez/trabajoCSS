@@ -1,10 +1,33 @@
 header {
-  border: solid 1px black;
   height: 80px;
+  margin-top: 110px;
 }
 body {
-   background-color: rgb(124, 181, 238);
+  background-color: rgb(124, 181, 238);
 }
+
+#cabezera-estatica {
+  text-align: center;
+  height: 100px;
+  color: white;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .Logo {
   height: 80px;
   width: 40%;
@@ -18,11 +41,13 @@ body {
   width: 60%;
   text-align: center;
   float: right;
-   background-color: rgb(124, 181, 238);
+  background-color: rgb(124, 181, 238);
+  margin-top: 20px;
 }
 
-a.Cabezera {
+.Cabezera a {
   color: blue;
+  text-decoration: none;
 }
 a:hover {
   color: rgb(65, 225, 65);
@@ -43,7 +68,17 @@ a:hover {
   position: fixed;
   left: 0px;
   width: 20%;
-  height: 775px;
+  height: 700px;
+  animation: deslizIzquierda 5s ease-out forwards;
+}
+
+@keyframes deslizIzquierda {
+  from {
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 #publicidadDech {
@@ -52,7 +87,33 @@ a:hover {
   position: fixed;
   right: 0px;
   width: 20%;
-  height: 775px;
+  height: 700px;
+  animation: deslizDerecha 5s ease-out forwards;
+}
+@keyframes deslizDerecha {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.correo-rojo {
+  color: red;
+  margin-left: 120px;
+}
+.imagen {
+  margin-left: 80px;
+}
+p,
+h2 {
+  text-align: center;
+}
+.publicidad-nuestra {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 50%;
 }
 
 .footer-principal {

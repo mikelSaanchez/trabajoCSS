@@ -23,10 +23,20 @@ h2,h3{
   width: 33%;
   float: left;
   border: 1px black solid;
-  height: 200px;
+  height: 250px;
   text-align: center;
   background-color: white;
    margin-bottom: 200px;
+}
+#video{
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+#principal{
+  margin: auto;
+  width: 60%;
+  height: 2000px;
 }
 
 
